@@ -1,0 +1,12 @@
+Group:
+Samuel Sherman, Cameron Matthews, Kyle Anderson
+Files:
+main.c, Makefile
+Instructions for compiling:
+run "make" from the directory main.c is in.
+Instructions for running:
+type "./main" from the directory main is in.
+Struggles:
+I struggled with passing pointers throughout this project. Originally I planned on keeping my logic for commands in a seperate c file and use a header file, but ran into an issue with the compiler creating new memory addresses no matter how I passed the pointer. After using the CS Lab tutoring, showing it to the professor and attempting to debug on the fox machines for about 6 hours I decided to go with the current setup.
+Research sources:
+I did research on the getpid, fork, chdir, and cwd from geeksforgeeks and tutorialspoints.
